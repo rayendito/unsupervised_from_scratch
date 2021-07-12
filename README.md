@@ -1,1 +1,1 @@
-# supervised_from_scratch
+# unsupervised_from_scratch
