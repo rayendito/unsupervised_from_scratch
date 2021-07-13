@@ -16,7 +16,7 @@ def neighbors(data, idxCenter, epsilon, minpt):
             points.append(i)
     return points
 
-def fit(data, epsilon, minpt):
+def fitDBScan(data, epsilon, minpt):
     point_label = [0]*len(data)
     points = [] # matriks 2d buat ngetauin siapa aja anggota cluster tsb
 
