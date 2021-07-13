@@ -32,15 +32,15 @@ def isListSame(a, b):
             return False
     return True
 
-def fitKMeans(data, k, centroid):
-    # centroid = []
+def fitKMeans(data, k):
+    centroid = []
     panjang = len(data)
 
     # random points 
-    # for i in range(k):
-    #     newrand = randint(0,panjang-1)
-    #     if(newrand not in centroid):
-    #         centroid.append(newrand)
+    for i in range(k):
+        newrand = randint(0,panjang-1)
+        if(newrand not in centroid):
+            centroid.append(newrand)
 
     # create array of members
     point_label = [0 for i in range(panjang)]
