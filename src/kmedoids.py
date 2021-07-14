@@ -32,7 +32,7 @@ def isListSame(a, b):
             return False
     return True
 
-def fitKMeans(data, k):
+def fitKMedoids(data, k):
     centroid = []
     panjang = len(data)
 
